@@ -3,5 +3,73 @@ html{
   font-family: 'Montez', cursive;
   font-family: 'Montserrat', sans-serif;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#headerPart{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: aqua
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-botton: 10px;
+  border-radius: 24%;
+}
+
+.logoSha img{
+
+}
+
+.telepfonshica{
   width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.Navigosha{
+  font-size: 22px;
+}
+.Navigosha a{
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+.Navigosha li{
+  list-style-type: none;
+display: inline;
+padding-botton: 10px;
+padding-top: 20px;
+}
+
+.Photobackground{
+  width: 100%;
+}
+
+.mainContainer{
+  width: 100%
+  box-sizing: border-box;
+
+
+}
+
+.borders {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: blueviolet;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  border: hidden 7px gray;
+}
+
+.borders:hover {
+  border: ridge 7px rgb(163, 113, 113);
 }
