@@ -1,75 +1,60 @@
 html{
-  margin: 0;
+margin: 0;
   font-family: 'Montez', cursive;
-  font-family: 'Montserrat', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /*font-family: 'Montserrat', sans-serif;*/
+  min-width: 320px;
+  max-width: 1440px;
   width: 100%;
-}
-
-#headerPart{
-  width: 100%;
-  box-sizing: border-box;
-  background-color: aqua
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-  padding-botton: 10px;
-  border-radius: 24%;
+ font-size: 18px;
 }
 
-.logoSha img{
-
+.mainContainer {
+  position: relative;
+min-width: 450px;
+width: 100%;
+height: 600px;
+background-color: rgba(0, 100, 30)
 }
-
-.telepfonshica{
+.mainContainer img{
   width: 320px;
+position: absolute;
+top: 0;
+left: 30;
+}
+.mainContainer h1{
+  margin-left: 200px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../Assets/pexels-aleksandar-pasaric-325185.png");
+
+  /* Set a specific height */
+  min-height: 500px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  font-size: 60px;
+color:darkgoldenrod
+}
+.ButTon{
+  width: 220px;
+  height: 40px;
+  margin-top:20px;
+  font-size:20px;
+  backgrount-color: goldenrod;
+  border-radius: 15px;
+  box-radius: gray 2px 3px;
+  border: none;
 }
 
-.Navigosha{
-  font-size: 22px;
-}
-.Navigosha a{
-  text-decoration: none;
-  font-size: 1.3em;
-}
-
-.Navigosha li{
-  list-style-type: none;
-display: inline;
-padding-botton: 10px;
-padding-top: 20px;
-}
-
-.Photobackground{
-  width: 100%;
-}
-
-.mainContainer{
-  width: 100%
-  box-sizing: border-box;
-
-
-}
-
-.borders {
-  width: 300px;
-  height: 300px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: blueviolet;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-  border: hidden 7px gray;
-}
-
-.borders:hover {
-  border: ridge 7px rgb(163, 113, 113);
-}
